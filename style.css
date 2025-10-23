@@ -34,3 +34,9 @@ body {
     text-align: rigth;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+h1{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 4em;
+    color: rgba(200, 150, 253, 0.999);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
