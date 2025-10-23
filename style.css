@@ -34,3 +34,17 @@ body {
     text-align: rigth;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+h2{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 3em;
+    color: rgb(164, 151, 245);
+    text-align:left;
+
+}
+.second {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 1em;
+    color: rgb(4, 2, 19);
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
