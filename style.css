@@ -36,13 +36,13 @@ body {
 
 /* Text overlay */
 .overlay-text {
-  position: left 20%;
-  top: 40%;
+  position: absolute;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  font-weight: bold;
-  font-style: Italiano cursive;
+  font-style: Pacifico cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .image-section h1 {
