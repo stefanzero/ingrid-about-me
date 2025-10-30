@@ -10,15 +10,10 @@ body {
   background-color: #004080;
   padding: 10px;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+    gap: 10px;
   
-}
-.nav-buttons {
-  display: flex;               
-  justify-content: center;      
-  align-items: center;          
-  gap: 20px;                    
-  background-color: #004c97;    
-  padding: 10px;
 }
 /* Image container */
 .image-section {
