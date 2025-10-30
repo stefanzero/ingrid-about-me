@@ -12,6 +12,14 @@ body {
   text-align: right;
   
 }
+.nav-buttons {
+  display: flex;               
+  justify-content: center;      
+  align-items: center;          
+  gap: 20px;                    
+  background-color: #004c97;    
+  padding: 10px;
+}
 /* Image container */
 .image-section {
   position: relative;
