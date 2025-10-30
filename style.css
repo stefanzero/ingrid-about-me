@@ -34,17 +34,6 @@ body {
   );
 }
 
-/* Text overlay */
-.overlay-text {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-style: Pacifico cursive;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 .image-section h1 {
   position: absolute;
   top: 55%;
