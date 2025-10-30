@@ -1,21 +1,18 @@
+function showMessage(section) {
+  alert(`You clicked ${section}`);
+}
 
-      <script>
-    function showMessage(section) {
-      alert(`You clicked ${section}`);
-    }
+function toggleDropdown() {
+  const dropdown = document.getElementById('skillsDropdown');
+  dropdown.classList.toggle('show');
+}
 
-    function toggleDropdown() {
-      const dropdown = document.getElementById('skillsDropdown');
-      dropdown.classList.toggle('show');
+// Close dropdown when clicking outside
+window.onclick = function (e) {
+  if (!e.target.matches('.btn')) {
+    const dropdown = document.getElementById('skillsDropdown');
+    if (dropdown.classList.contains('show')) {
+      dropdown.classList.remove('show');
     }
-
-    // Close dropdown when clicking outside
-    window.onclick = function(e) {
-      if (!e.target.matches('.btn')) {
-        const dropdown = document.getElementById('skillsDropdown');
-        if (dropdown.classList.contains('show')) {
-          dropdown.classList.remove('show');
-        }
-      }
-    }
-  </script>
+  }
+};
