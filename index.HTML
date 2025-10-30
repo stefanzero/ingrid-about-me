@@ -12,7 +12,23 @@
   <body>
     <nav class="navbar">
       <button class="btn btn-primary" onclick="showMessage()">Bio</button>
-      <div class="bio-section">
+      <div class="dropdown-container">
+      <button class="btn btn-primary" onclick="showMessage()">Skills</button>
+      <div id="skillsDropdown" class="dropdown">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+      </div>
+    </div>
+      <button class="btn btn-primary" onclick="showMessage()">Contact me</button>
+    </nav>
+
+<div class="image-section">
+      <img src="IngridL.jpg" alt="Ingrid Lopez">
+      <div class="overlay-dark"></div>
+    </div>
+
+<div class="bio-section">
       <h1>Bio</h1>
       <label for="bio"><strong>Your Bio:</strong></label><br>
       <textarea id="bio" class="bio-box" readonly>
@@ -27,15 +43,6 @@ Ingrid enjoys staying active and productive. She runs around Lake Merced 3–5 t
 Ingrid is now pursuing a career in the justice system to serve her community in San Francisco. She is especially interested in working within the justice system because she believes in second chances and the power of guidance and rehabilitation. She values accountability, fairness, and community safety—principles that align with the mission of the department. Ingrid is passionate, hardworking, and eager to continue learning. She brings strong communication skills, leadership experience, public speaking ability, critical thinking, and time management to everything she does. She is ready to be a positive influence and create change in her community.
       </textarea>
     </div>
-      <button class="btn btn-primary" onclick="showMessage()">Skills</button>
-      <button class="btn btn-primary" onclick="showMessage()">Contact me</button>
-    </nav>
-
-<div class="image-section">
-      <img src="IngridL.jpg" alt="Ingrid Lopez">
-      <div class="overlay-dark"></div>
-    </div>
-
 
     <div class="skills-section">
       <h2>Skills</h2>
