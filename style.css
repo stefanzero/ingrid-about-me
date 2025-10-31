@@ -4,6 +4,28 @@ body {
   margin: 0;
   padding: 0;
 }
+.navbar {
+    position: relative;
+    width: 100%;
+  background-color: #004080;
+  padding: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+    gap: 10px;
+  
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  top: 40px;
+  left: 0;
+  z-index: 10;
+}
 
 /* Image container */
 .image-section {
@@ -32,17 +54,6 @@ body {
     transparent 80%,
     rgba(0, 0, 0, 0.6)
   );
-}
-
-/* Text overlay */
-.overlay-text {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-style: Pacifico cursive;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .image-section h1 {
