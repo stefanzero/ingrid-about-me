@@ -84,14 +84,14 @@ body {
   resize: none;
 }
 
-/* Skills Section */
-.skills-section {
+/* About Me Section */
+.aboutme-section {
   width: 80%;
   max-width: 700px;
   margin: 50px auto;
   text-align: center;
 }
-.skills-box {
+.aboutme-box {
   width: 100%;
   height: 150px;
   padding: 15px;
