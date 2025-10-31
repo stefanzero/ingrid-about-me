@@ -4,16 +4,8 @@ body {
   margin: 0;
   padding: 0;
 }
-.header {
-    position: relative;
-    width: 100%;
+.navbar {
   background-color: #004080;
-  padding: 10px;
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
-    gap: 10px;
-  
 }
 .dropdown {
   display: none;
